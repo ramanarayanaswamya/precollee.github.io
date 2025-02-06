@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precollee Profile</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar .nav-links {
+            display: flex;
+        }
+        .navbar .logo {
+            height: 40px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            padding: 80px 20px 20px; /* Adjusted padding to account for fixed navbar */
+            border-bottom: 1px solid #ddd;
+        }
+        .section img {
+            max-width: 200px;
+            margin-right: 20px;
+        }
+        .section .text {
+            max-width: 600px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#certifications">Certifications</a>
+        </div>
+        <div>
+            <img src="logo.png" alt="Company Logo" class="logo">
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <img src="./Resources/img/aboutcompany.png" /> alt="About Us Image">
+        <div class="text">
+            <h2>About Us</h2>
+            <p>A Focused team of new age
+              entrepreneurs have come together to form &amp; create an establishment primarily to collaborate with the
+              industry for sustainable transformation into industrial revolution 4.0.</p>
+        </div>
+    </div>
+
+    <div id="products" class="section">
+        <img src="products.jpg" alt="Products Image">
+        <div class="text">
+            <h2>Products</h2>
+            <p>Details about the products go here.</p>
+        </div>
+    </div>
+
+    <div id="certifications" class="section">
+        <img src="certifications.jpg" alt="Certifications Image">
+        <div class="text">
+            <h2>Certifications</h2>
+            <p>Information about certifications goes here.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Precollee. All rights reserved.</p>
+    </div>
+</body>
+</html>
