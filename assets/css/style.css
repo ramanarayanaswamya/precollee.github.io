@@ -955,4 +955,111 @@ img.navbarlogo {
     position: absolute;
     bottom: 10%;
 }
+.product-row {
+    margin-bottom: 20px; /* Add space between rows */
+    padding: 20px; /* Add padding inside rows */
+}
+
+.grey-background {
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.white-background {
+    background-color: #ffffff; /* White background */
+}
+
+.product-img img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 400px; /* Sets a fixed height for the images */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+.product-txt.right {
+    text-align: right; /* Right-align the text */
+}
+
+.gallery .single-gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .single-gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery .gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery .single-gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery .overlay-text {
+    color: #fff;
+}
+
+.gallery .overlay-text h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.gallery .overlay-text p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.single-gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.single-gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    padding: 20px;
+}
 /*========================Thank you=================
