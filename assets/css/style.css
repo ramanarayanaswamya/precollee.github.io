@@ -247,7 +247,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background-position:center;
     background-size:cover;
     text-align: center;
-    height:800px;
+    height:700px;
     z-index: 1;
 }
 .welcome-hero:before{
@@ -263,8 +263,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .welcome-hero-txt { padding-top: 155px;}
 
 .welcome-hero-txt h2 {
-    font-size: 48px;
-    color: #fff;
+    font-size: 24px;
+    color: GREEN;
+    PADDING-TOP: 2%;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
@@ -947,5 +948,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+
+/* by babu */
+img.navbarlogo {
+    position: absolute;
+    bottom: 10%;
 }
 /*========================Thank you=================
